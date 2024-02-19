@@ -1,0 +1,139 @@
+html{
+    font-size: 14px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 50px 20px;
+    background-color: #f2ebe3;
+    color: #6c7289;
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: #1c232b;
+    margin-bottom: 10px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.img-container img{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.content{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9rem;
+}
+
+
+
+.headline{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+
+.price{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.price h1{
+    color: #3c8067;
+}
+
+.price p{
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+    text-decoration: line-through;  
+}
+
+
+.button{
+    display: flex;
+    color: #ffffff;
+    background-color: #3c8067;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.button img{
+    margin-right: 10px;
+}
+
+
+@media(min-width: 600px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+    }
+
+
+    .img-container img{
+        content: url("./images/image-product-desktop.jpg");
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 0 0 10px;
+        flex-grow: 1;
+    }
+
+   
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
